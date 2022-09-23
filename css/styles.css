@@ -44,3 +44,8 @@ footer {
     background-image: linear-gradient(#CEC8FF, white);
     padding: 20px 0;
 }
+
+.col-sm-4 {
+    margin: 1rem;
+    padding: 0rem;
+}
