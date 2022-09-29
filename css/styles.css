@@ -8,6 +8,7 @@ h1, h2, h3 {
 
 h2 {
     color: #3046C5;
+    margin-top:-6rem;
 }
 
 header h2 {
@@ -58,4 +59,42 @@ footer {
 .col-sm-4 {
     margin: 1rem;
     padding: 0rem;
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+    margin-right: 1rem;
+}
+
+.media-body.align-self-center {
+    margin-bottom: 6rem;
+}
+
+img.d-flex.mr-3.img-thumbnail {
+    margin-bottom: 5rem;
+}
+
+h2.text-sm-right {
+    margin-bottom: 8rem;
+}
+
+h2.title {
+    margin-top: 0rem;
+}
+
+.jumbotron {
+    margin: -25px;
+}
+
+.col-4.col-sm-3.col-md-2.align-self-center {
+    margin-right: -8rem;
+}
+.col {
+    margin-bottom: 5rem;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
 }
