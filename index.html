@@ -50,34 +50,36 @@
                 <div class="modal-body">
                     <div class="container-fluid">
                         <form action="" method="post" role="form">
-                            <div class="form-row">
-                                <div class="col-lg-4 col-md-6 form-group">
-                                    <input type="text" name="name" class="form-control" id="name"
-                                        placeholder="Number Of Campers">
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Numbers of Campers:</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3">
                                 </div>
-                                <div class="col-lg-4 col-md-6 form-group">
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email">
-                                </div>
-                                <div class="col-lg-4 col-md-6 form-group">
-                                    <input type="number" class="form-control" name="phone" id="phone"
-                                        placeholder="Your Phone">
-                                </div>
-                                <div class="col-lg-4 col-md-6 form-group">
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputEmail3" class="col-sm-2 col-form-label">Date:</label>
+                                <div class="col-sm-10">
                                     <input type="date" name="date" class="form-control" id="date" placeholder="Date">
                                 </div>
-                                <div class="col-lg-4 col-md-6 form-group">
-                                    <input type="time" class="form-control" name="time" id="time" placeholder="Time">
-                                </div>
-                                <div class="col-lg-4 col-md-6 form-group">
-                                    <input type="number" class="form-control" name="people" id="people"
-                                        placeholder="No. of people">
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-2 col-form-label">Campsite Type:</label>
+                                <div class="col-sm-10">
+                                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-success active">
+                                          <input type="radio" name="options" id="option1" checked> RV
+                                        </label>
+                                        <label class="btn btn-primary">
+                                          <input type="radio" name="options" id="option2"> Tent
+                                        </label>
+                                      </div>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                            <button class="btn btn-secondary" type="submit">Cancel</button>
+                            <button class="btn btn-primary" type="submit">Submit</button>
                             </div>
-                            <button type="submit" class="btn btn-primary float-right mt-3">Book a Table</button>
+                            </div>
+                            </div>
                         </form>
                     </div>
 
@@ -259,9 +261,13 @@
                     </div>
                 </footer>
                 ​
-               <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>​
+                <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+                    crossorigin="anonymous"></script>​
 </body>
 ​
 
