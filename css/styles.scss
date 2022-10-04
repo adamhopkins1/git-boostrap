@@ -1,0 +1,129 @@
+$color-primary:#3046c5;
+$color-secondary:#5637dd;
+$color-pale:#CEC8FF;
+$color-mid:#901CAD;
+$color-dark:#60106b;
+$color-black-transparent:rgba(0,0,0,0.5);
+
+$body-font:"Open Sans", sans-serif;
+$header-font:"Lobster", cursive;
+
+
+
+
+body {
+    font-family:$body-font;
+}
+
+h1, h2, h3 {
+    font-family:$header-font ;
+}
+
+h2 {
+    color: $color-primary;
+    margin-top:-6rem;
+}
+
+header h2 {
+    color: $color-pale;
+}
+
+footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-secondary, #3046C5, $color-dark);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.datepicker td, .datepicker th {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.85rem;
+}
+
+.datepicker {
+    margin-bottom: 3rem;
+}
+
+
+.navbar {
+    background-color:$color-mid;
+}
+
+.jumbotron {
+    margin: 0;
+}
+
+.site-footer{
+    background-image: linear-gradient($color-pale, white);
+    padding: 20px 0;
+}
+
+.col-sm-4 {
+    margin: 1rem;
+    padding: 0rem;
+}
+
+.h3, h3 {
+    font-size: 1.75rem;
+    margin-right: 1rem;
+}
+
+.media-body.align-self-center {
+    margin-bottom: 6rem;
+}
+
+img.d-flex.mr-3.img-thumbnail {
+    margin-bottom: 5rem;
+}
+
+h2.text-sm-right {
+    margin-bottom: 8rem;
+}
+
+h2.title {
+    margin-top: 0rem;
+}
+
+.jumbotron {
+    margin: -25px;
+}
+
+.col-4.col-sm-3.col-md-2.align-self-center {
+    margin-right: -8rem;
+}
+.col {
+    margin-bottom: 5rem;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+
+.carousel {
+    border:$color-secondary;
+}
+
+
+#carouselButton{
+    position:absolute;
+    right:0;
+    bottom:0;
+    z-index:100;
+}
