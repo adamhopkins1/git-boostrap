@@ -1,116 +1,115 @@
 body {
-    font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+  font-family: "Lobster", cursive;
 }
 
 h2 {
-    color: #3046C5;
-    margin-top:-6rem;
+  color: #3046c5;
+  margin-top: -6rem;
 }
 
 header h2 {
-    color: #CEC8FF;
+  color: #CEC8FF;
 }
 
 footer {
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0;
 }
 
 .jumbotron {
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);
-    color: white;
+  padding: 30px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: white;
 }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px;
 }
 
 .datepicker td, .datepicker th {
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 0.85rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 0.85rem;
 }
 
 .datepicker {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
-
 .navbar {
-    background-color: #901CAD;
+  background-color: #901CAD;
 }
 
 .jumbotron {
-    margin: 0;
+  margin: 0;
 }
 
-.site-footer{
-    background-image: linear-gradient(#CEC8FF, white);
-    padding: 20px 0;
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0;
 }
 
 .col-sm-4 {
-    margin: 1rem;
-    padding: 0rem;
+  margin: 1rem;
+  padding: 0rem;
 }
 
 .h3, h3 {
-    font-size: 1.75rem;
-    margin-right: 1rem;
+  font-size: 1.75rem;
+  margin-right: 1rem;
 }
 
 .media-body.align-self-center {
-    margin-bottom: 6rem;
+  margin-bottom: 6rem;
 }
 
 img.d-flex.mr-3.img-thumbnail {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 h2.text-sm-right {
-    margin-bottom: 8rem;
+  margin-bottom: 8rem;
 }
 
 h2.title {
-    margin-top: 0rem;
+  margin-top: 0rem;
 }
 
 .jumbotron {
-    margin: -25px;
+  margin: -25px;
 }
 
 .col-4.col-sm-3.col-md-2.align-self-center {
-    margin-right: -8rem;
+  margin-right: -8rem;
 }
+
 .col {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 .tab-content {
-    border: 1px solid #DDD;
-    border-top: none;
-    padding: 10px;
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px;
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel {
-    border: solid #5637DD;
+  border: #5637dd;
 }
 
-
-#carouselButton{
-    position:absolute;
-    right:0;
-    bottom:0;
-    z-index:100;
-}
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}/*# sourceMappingURL=styles.css.map */
